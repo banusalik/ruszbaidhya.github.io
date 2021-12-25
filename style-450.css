@@ -1,0 +1,213 @@
+/* WHOLE BODY */
+*{
+   margin: 0;
+   padding-left: 0;
+   box-sizing: border-box;
+}
+
+body{
+   /*  #606060FF #d4b996ff */
+   background-color: #755139FF ;
+   color: black;
+   font-family: 'Ibarra Real Nova', serif;
+}
+
+p{
+   color: #2A2B2E;
+}
+
+/* INSIDE MAIN BODY */
+.all{
+   background-color: white;
+   margin: 20px;
+   border-radius: 10px;
+}
+
+.logo{
+   display: flex;
+   padding-top: 15px;
+   padding-left: 8px;
+}
+
+.logo h1{
+   font-family: 'Viaoda Libre', cursive;
+   font-weight: 900;
+   float: left;
+   color: black;
+   width: 220px;
+   padding-top: 5px;
+   padding-left: 8px;
+   font-size: 35px;
+}
+
+.line{
+   height: 5px;
+   background-color: #755139FF;
+   border-radius: 20px;
+}
+
+.nav ul{
+   list-style: none;
+   margin-left: 35px;
+   margin-top: 10px;
+}
+
+.nav ul li{
+   font-family: 'Viaoda Libre', cursive;
+   font-weight: 900;
+   display: inline-block;
+   padding-left: 15px;
+   font-size: 27px;
+}
+
+.nav ul li a{
+   text-decoration: none;
+   color: #2A2B2E;
+}
+
+.main{
+   display: inline-block;
+   margin-top: 15px;
+}
+
+.main .rusz a{
+   margin-left: 7px;
+}
+
+.main .rusz img{
+   width: 350px;
+   border-radius: 20px;
+   padding-left: 10px;
+}
+
+
+.main .am{
+   width: 350px;
+   margin-left: 7px;
+}
+
+/* MAIN ABOUT ME */
+.main .am h2{
+   font-size: 40px;
+   margin-top: 30px;
+   text-align: center;
+}
+
+/* MAIN ABOUT ME PARAGRAPH */
+.main .am p{
+   font-size: 20px;
+   margin-top: 10px;
+   text-align: center;
+}
+
+.main .bottom{
+   margin-top: 35px;
+}
+
+.main .bottom ul li{
+   display: inline-block;
+}
+
+.main .bottom .dc{
+   margin-left: 25px;
+}
+
+.main .bottom .dc a{
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.main .bottom .hm{
+   margin-left: 25px;
+}
+
+.main .bottom .hm a{
+   padding-left: 40px;
+   padding-right: 40px;
+}
+
+
+
+
+/* LINK */
+.main .bottom ul a{
+   text-decoration: none;
+   background-color: #d4b996ff;
+   border-radius: 30px;
+   color: white;
+   padding: 10px;
+   font-size: 17px;
+   transition: all 0.2s linear;
+}
+
+.main .bottom ul a:hover{
+   box-shadow: 0px 0px 15px grey;
+}
+
+.extra{
+   margin-top: 35px;
+}
+
+.extra h1{
+   text-align: center;
+   font-size: 35px;
+}
+
+.extra .one{
+   display: flex;
+   margin-left: 20px;
+   flex-wrap: wrap;
+}
+
+.extra .one h4{
+   font-weight: bolder;
+   font-size: 20px;
+   margin-top: 40px;
+   margin-left: 5px;
+}
+
+.extra .one p{
+   font-size: 17px;
+   /* background-color: #2A2B2E; */
+   margin-left: 8px;
+   margin-right: 20px;
+}
+
+.extra h1{
+   text-align: center;
+   font-size: 35px;
+}
+
+.extra .two{
+   display: flex;
+   margin-left: 20px;
+   flex-wrap: wrap;
+}
+
+.extra .two h4{
+   font-weight: bolder;
+   font-size: 20px;
+   margin-top: 40px;
+   margin-left: 5px;
+}
+
+.extra .two p{
+   font-size: 17px;
+   /* background-color: #2A2B2E; */
+   margin-left: 8px;
+   margin-right: 20px;
+}
+
+.down{
+   margin-top: 50px;
+   text-align: center;
+}
+
+.down a{
+   text-decoration: none;
+}
+
+.down h3{
+   font-size: 10px;
+   padding-bottom: 15px;
+}
