@@ -1,5 +1,26 @@
 @media screen and (max-width: 310px) {
+   header .logo a img{
+      width: 65px;
+   }
+   .logo h1{
+      font-size: 25px;
+      padding-top: 15px;
+   }
+
+   .main{
+      margin-top: 30px;
+   }
+
+
+   .nav ul li{
+      font-size: 20px;
+   }
+
    .main .rusz img{
       width: 220px;
+   }
+
+   .extra h4{
+      font-size: 20px;
    }
 }
