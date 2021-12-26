@@ -17,7 +17,6 @@ p{
 
 /* INSIDE MAIN BODY */
 .all{
-   box-sizing: content-box;
    background-color: white;
    margin: 30px 50px;
    border-radius: 30px;
@@ -52,7 +51,7 @@ header .logo a img{
 .nav{
  float: right;
  padding-right: 50px;
- padding-top: 10px;
+ padding-top: 25px;
 }
 
 .nav ul{
@@ -91,7 +90,6 @@ header .logo a img{
 }
 
 .main .am{
-   box-sizing: border-box;
    width: 90vh;
    text-align: center;
    padding-top: 45px;
