@@ -1,49 +1,46 @@
 @media screen and (max-width: 380px) {
-   .nav ul{
-      margin-left: 13px;
-   }
 
-   .main .rusz a{
-      margin-left: 12px;
+
+   
+   .logo h1{
+      padding-left: 0px;
+      padding-top: 20px;
+      font-size: 30px;
    }
    
-   .main .rusz img{
-      width: 300px;
-      border-radius: 15px;
+   .nav ul li{
+      font-size: 25px;
    }
 
-   .main .am{
-      width: 300px;
-      margin-left: 17px;
+   .main .rusz img{
+      width: 260px;
+   }
+
+
+   .main .am h2{
+      font-size: 35px;
+   }
+
+   .main .am p{
+      font-size: 18px;
    }
 
    .main .bottom{
-      margin-top: 35px;
-   }
-   
-   .main .bottom .dc{
-      margin-left: 18px;
-   }
-   
-   .main .bottom .dc a{
-      padding-left: 20px;
-      padding-right: 20px;
-   }
-   
-   .main .bottom .hm{
-      margin-left: 10px;
-   }
-   
-   .main .bottom .hm a{
-      padding-left: 40px;
-      padding-right: 40px;
+      margin-top: 15px;
    }
 
-   .extra .one h4{
-      margin-top:20px;
+   .bottom ul li{
+      display: block;
+      text-align: center;
+      margin-top: 30px;
+      padding-left: 0px;
    }
 
-   .extra .two h4{
-      margin-top:20px;
+   .extra h4{
+      font-size: 25px;
+      padding-top: 15px;
    }
-}
+
+   .down h3{
+      font-size: 8px;
+   }

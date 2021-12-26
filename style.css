@@ -91,16 +91,16 @@ header .logo a img{
 .main .am{
    width: 80vh;
    text-align: center;
-   padding-top: 20px;
+   padding-top: 45px;
 }
 
 .main .am h2{
-   font-size: 45px;
+   font-size: 50px;
 }
 
 .main .am p{
-   font-size: 25px;
-   padding-top: 20px;
+   font-size: 30px;
+   padding-top: 30px;
 }
 
 .bottom ul li{
