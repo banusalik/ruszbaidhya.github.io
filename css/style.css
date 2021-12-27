@@ -1,3 +1,10 @@
+:root {
+   --black: #1a1a1d;
+   --blacks: #282828;
+   --grey: #5d5c61;
+   --greys: #adadad;
+ }
+
 /* WHOLE BODY */
 *{
    margin: 0;
@@ -5,14 +12,13 @@
 }
 
 body{
-   /*  #606060FF #d4b996ff */
-   background-color: #755139FF ;
-   color: black;
+   background-color: var(--blacks) ;
+   color: var(--black);
    font-family: 'Ibarra Real Nova', serif;
 }
 
 p{
-   color: #2A2B2E;
+   color: var(--black);
 }
 
 /* INSIDE MAIN BODY */
@@ -68,7 +74,7 @@ header .logo a img{
 
 .nav ul li a{
    text-decoration: none;
-   color: #2A2B2E;
+   color: var(--black);
    font-weight: 900;
 }
 
@@ -119,7 +125,7 @@ header .logo a img{
    text-decoration: none;
    color: black;
    font-size: 25px;
-   /* background-color: blanchedalmond; */
+   background-color: var(--greys);
    border-radius: 20px;
    padding: 10px 20px;
 }
@@ -185,3 +191,68 @@ header .logo a img{
    /* text-align: center; */
    font-size: 15px;
 }
+
+
+/* -----------------Hire Me----------------- */
+.vh{
+   height: 96vh;
+}
+
+.hire-main{
+   display: grid;
+   grid-template-columns: auto auto;
+}
+
+.left{
+   display: grid;
+   grid-template-columns: auto auto;
+   margin-left: 20px;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+
+.left img{
+   width: 70px;
+}
+
+.left h4{
+   font-size: 30px;
+}
+
+.left p{
+   font-size: 20px;
+}
+
+.left-margin{
+   margin-top: 40px;
+}
+
+.hire-main-right-top{
+   margin-bottom: 70px;
+}
+
+.hire-main-right-down h4{
+   padding-top: 5px;
+   font-size: 40px;
+}
+
+.hire-main-right-down a{
+   text-decoration: none;
+}
+
+.hire-main-right-down img{
+   margin-top: 17px;
+   width: 30px;
+}
+
+.right{
+   margin-right: 20px;
+   justify-content: center;
+   align-items: center;
+}
+
+.right img{
+   width: 350px;
+}
+

@@ -33,4 +33,14 @@
       margin: auto;
    }
 
-}   
+   .all{
+      height: auto;
+   }
+
+ .left{
+   display: block;
+}
+.hire-main-right-top{
+   margin-top: 40px;
+}
+}

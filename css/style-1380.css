@@ -32,9 +32,33 @@
 
    .bottom ul li a{
       font-size: 20px;
-      background-color: blanchedalmond;
       border-radius: 20px;
       padding: 10px 20px;
+   }
+
+   .left img{
+      width: 50px;
+   }
+   
+   .left h4{
+      font-size: 20px;
+   }
+   
+   .left p{
+      font-size: 15px;
+   }
+
+   .hire-main-right-top{
+      margin-bottom: 60px;
+   }
+
+   .hire-main-right-down img{
+      margin-top: 17px;
+      width: 30px;
+   }
+
+   .righ img{
+      width: 250px;
    }
    
 }
@@ -145,9 +169,13 @@
       .down h3{
          font-size: 10px;
       }
+
+      .copyright{
+         margin-top: 60px;
+      }
    }   
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 800px){
    .logo{
       float: none;
    } 
@@ -180,4 +208,41 @@
       display: block;
       margin: auto;
    }
+   
+   .right{
+      display: none;
+   }
+
+   .left{
+      margin-top: 80px;
+   }
+
+
+
+
+   .left img{
+      width: 70px;
+   }
+   
+   .left h4{
+      font-size: 30px;
+   }
+   
+   .left p{
+      font-size: 20px;
+   }
+
+   .hire-main-right-top{
+      margin-bottom: 70px;
+   }
+
+   .hire-main-right-down img{
+      margin-top: 27px;
+      width: 30px;
+   }
+ 
+   .copyright{
+      margin-top: 150px;
+   }
+   
 }
